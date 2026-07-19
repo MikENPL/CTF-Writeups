@@ -25,7 +25,7 @@ PORT   STATE SERVICE
 
 I visit the site at `http://10.113.181.143`:
 
-![](../Assets/Pickle Rick/Pasted image 20260719152116.png)
+![](../Assets/Pickle%20Rick/Pasted%20image%2020260719152116.png)
 
 It looks like we're gonna have to login into the SSH service and find the flags there. To get some more info I inspect the page source and find this comment:
 ```
@@ -86,7 +86,7 @@ server-status           [Status: 403, Size: 279, Words: 20, Lines: 10, Duration:
 
 And just like that we've found a login page:
 
-![](../Assets/Pickle Rick/Pasted image 20260719154125.png)
+![](../Assets/Pickle%20Rick/Pasted%20image%2020260719154125.png)
 
 We already know the username, but we still have no clue about the password. I go back to our findings from enumerating the site, and checkout `robots.txt` which contains:
 ```
@@ -95,15 +95,15 @@ Wubbalubbadubdub
 
 I use that as a password for the user `R1ckRul3s` and we successfully log in:
 
-![](../Assets/Pickle Rick/Pasted image 20260719154450.png)
+![](../Assets/Pickle%20Rick/Pasted%20image%2020260719154450.png)
 
 The other panels just redirect to the same GIF, so I'll stick to the `Commands` tab. I input `ls` and we get a listing of files:
 
-![](../Assets/Pickle Rick/Pasted image 20260719154617.png)
+![](../Assets/Pickle%20Rick/Pasted%20image%2020260719154617.png)
 
 I try to `cat` the `Sup3rS3cretPickl3Ingred.txt` file but get met with this GIF instead:
 
-![](../Assets/Pickle Rick/Pasted image 20260719154719.png)
+![](../Assets/Pickle%20Rick/Pasted%20image%2020260719154719.png)
 
 I try `less` and this time it outputs:
 ```
