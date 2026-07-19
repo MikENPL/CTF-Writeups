@@ -1,6 +1,6 @@
 A Rick and Morty CTF. Help turn Rick back into a human!
 
-![](../Assets/Pickle Rick/Pasted image 20260719152020.png)
+![](../Assets/Pickle\ Rick/Pasted\ image\ 20260719152020.png)
 
 > **Challenge Info**
 > 
